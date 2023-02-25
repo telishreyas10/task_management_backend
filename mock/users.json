@@ -1,0 +1,44 @@
+[
+  {
+    "id": 100,
+    "first_name": "Bruce",
+    "last_name": "Wayne",
+    "title": "Software Engineer",
+    "isActive": "true"
+  },
+  {
+    "id": 200,
+    "first_name": "John",
+    "last_name": "Snow",
+    "title": "Software Engineer",
+    "isActive": "true"
+  },
+  {
+    "id": 300,
+    "first_name": "Lionel",
+    "last_name": "Messi",
+    "title": "Software Engineer",
+    "isActive": "true"
+  },
+  {
+    "id": 400,
+    "first_name": "Robert",
+    "last_name": "Baratheon",
+    "title": "Sr. Software Engineer",
+    "isActive": "false"
+  },
+  {
+    "id": 1000,
+    "first_name": "Shreyas",
+    "last_name": "Teli",
+    "title": "Manager",
+    "isActive": "true"
+  },
+  {
+    "id": 2000,
+    "first_name": "Cristiano",
+    "last_name": "Ronaldo",
+    "title": "Manager",
+    "isActive": "true"
+  }
+]

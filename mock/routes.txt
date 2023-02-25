@@ -1,0 +1,60 @@
+RESOURCE ROUTE projects.js
+
+    GET /projects
+    -query param: name (ability to search by partial name)
+    -responds with all projects
+
+    GET /projects/:id
+    -responds with a project matching with id
+    -respond with count of task/users if it has any
+    -responds with error if project does not exist
+
+    POST /projects
+    -responds with newly created project including its id
+
+    PUT /projects/:id
+    -responds with a updated project matching with id
+    -responds with error if project name is not unique  
+    -responds with error if project name does not exist
+
+=====================================================================
+
+
+RESOURCE ROUTE tasks.js
+
+    GET /tasks
+    -responds with all tasks
+
+    GET /tasks/:id
+    -responds with a task matching with id
+    -responds with error if no task matches
+
+    POST /tasks
+    -responds with newly created task including its id
+
+    PUT /tasks/:id
+    -responds with a updated task matching with id
+    -responds with error if task status is not "assigned"  
+    -responds with error if task does not exist
+
+    DELETE /tasks/:id
+    -responds with confirmation of deleted task matching with id
+    -reponds with error if task does not exist
+
+=====================================================================
+
+
+RESOURCE ROUTE users.js
+
+    GET /users
+    -query param: isActive (ability to search users by isActive status flag)
+    -responds with all users (active & inactive both must be included)
+
+    GET /users/:id
+    -responds with a user matching with id
+    -responds with error if no user matches
+
+    PUT /users/:id
+    -responds with a updated user matching with id  
+    -responds with error if user does not exist
+

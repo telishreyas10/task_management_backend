@@ -1,0 +1,20 @@
+{
+  "name": "task_management_project",
+  "version": "1.0.0",
+  "description": "CS 5220 Task Management Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon server.js"
+  },
+  "author": "Shreyas Teli",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "project_id" : 777,
+    "name": "Using express as a plugin?",
+    "details": "I am finding very useful to make use of adapter functions so you can write plain TypeScript (JavaScript) controllers and use them in express without compromising them.",
+    "priority": "high",
+    "status": "assigned",
+    "timeline": {
+        "assigned_date" :"09/19/2022",
+        "due_date" :"09/28/2022",
+        "last_updated_date":"09/20/2022"
+    },
+    "assignee" : 100
+  },
+  {
+    "id": 2,
+    "project_id" : 777,
+    "name": "SNICallback native",
+    "details": "Today we do not have native support for such functionality. I myself, in a current project, needed SNICallback and I only found it in NodeJS native https functions but I didn't find any direct implementation in ExpressJS where I would rather have a raised server.",
+    "priority": "medium",
+    "status": "in progress",
+    "timeline": {
+        "assigned_date" :"09/15/2022",
+        "due_date" :"09/30/2022",
+        "last_updated_date":"09/20/2022"
+    },
+    "assignee" : 100
+  },
+  {
+    "id": 3,
+    "project_id" : 777,
+    "name": "POST request causing PreFlight and then getting cancelled after stalling ",
+    "details": "I wrote a simple API for learning using express, when I try to send a POST request from POSTMAN it is carried out and returns a success message but when POST is sent from client, PreFlight is issued and POST request after being stalled gets cancelled, after which PreFlight does return success message.",
+    "priority": "low",
+    "status": "in review",
+    "timeline": {
+        "assigned_date" :"09/19/2022",
+        "due_date" :"09/30/2022",
+        "last_updated_date":"09/20/2022"
+    },
+    "assignee" : 100
+  }, 
+  {
+    "id": 4,
+    "project_id" : 888,
+    "name": "Improve the Stack Trace when an HTML Parsing Error is Encountered",
+    "details": "Introduce an option that suppresses all errors in a stack trace except for the first one when the error is caused by a malformed HTML element (syntax error).",
+    "priority": "low",
+    "status": "in review",
+    "timeline": {
+        "assigned_date" :"09/19/2022",
+        "due_date" :"09/30/2022",
+        "last_updated_date":"09/20/2022"
+    },
+    "assignee" : 200
+  }, 
+  {
+    "id": 5,
+    "project_id" : 888,
+    "name": "[Feature Request] Currency Pipe: improved digit info options",
+    "details": "A common way to display currencies (at least in US) is to omit the cents if the price is a round number, or to show two digits if the price is not a round number.",
+    "priority": "high",
+    "status": "completed",
+    "timeline": {
+        "assigned_date" :"09/19/2022",
+        "due_date" :"09/2308/2022",
+        "last_updated_date":"09/20/2022"
+    },
+    "assignee" : 200
+  }
+]

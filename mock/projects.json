@@ -1,0 +1,20 @@
+[
+  {
+    "id": 777,
+    "name": "ExpressJS Project",
+    "description": "A high level ExpressJS Project",
+    "repository": "https://github.com/expressjs/express",
+    "manager": 1000,
+    "user_ids": [100, 300],
+    "task_ids": [1, 2, 3]
+  },
+  {
+    "id": 888,
+    "name": "Angular Project",
+    "description": "Angular Project for CSULA",
+    "repository": "https://github.com/angular/angular",
+    "manager": 2000,
+    "user_ids": [200],
+    "task_ids": [4, 5]
+  }
+]
