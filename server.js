@@ -4,7 +4,10 @@ const express = require('express');
 const mongoose = require('mongoose');
 
 // require in mongo config
-const { username, password, dbName } = require('./config.json');
+// const { username, password, dbName } = require('./config.json');
+const username = process.env.username;
+const password = process.env.password;
+const dbName = process.env.dbName;
 
 const app = express();
 const port = process.env.PORT || 8080;
